@@ -1,0 +1,50 @@
+.container {
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom, #1a1a1a, #333333);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.rowWrapper {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.textAreaWrapper {
+  flex-grow: 1;
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.select:last-child,
+.slider:last-child {
+  margin-right: 0;
+}
+
+.button {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

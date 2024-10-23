@@ -1,0 +1,28 @@
+.audioList {
+  margin-top: 20px;
+}
+
+.audioContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.audioPlayer {
+  margin-right: 10px;
+  width: 100%;
+}
+
+.removeButton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.removeButton:hover {
+  background-color: #ff1a1a;
+}

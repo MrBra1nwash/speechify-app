@@ -1,0 +1,13 @@
+.textarea {
+  max-height: 450px;
+  display: flex;
+  justify-self: stretch;
+  min-height: 200px;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  background-color: #444444;
+  color: white;
+  resize: vertical;
+}
