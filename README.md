@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a training application that I was doing as a training for coding challenges. It accepts text in the textarea and converts it to human speech.
 
 ## Available Scripts
 
